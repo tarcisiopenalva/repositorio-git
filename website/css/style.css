@@ -24,6 +24,19 @@ body {
    
 }
 
+li {
+    list-style: none;
+    padding: 5px 0;
+}
+
+li a {
+    text-decoration: none;
+}
+
+li a:hover {
+    color:#ffffff;
+}
+
 .content {
    width: 80%;
    padding: 30px;
@@ -32,5 +45,6 @@ body {
 .footer {
     background-color: #808080;
     text-align: center;
-    padding: 30px;
+    padding: 20px;
+
 }
