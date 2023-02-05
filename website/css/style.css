@@ -10,7 +10,11 @@ body {
 .header {
     background-image: url(../img/background-header.jpg);
     text-align: center;
-    padding: 100px 0;
+    padding: 20px;
+}
+
+.logo {
+    width: 130px;
 }
 
 .container {
@@ -24,16 +28,16 @@ body {
    
 }
 
-li {
+.navBar ul li {
     list-style: none;
     padding: 5px 0;
 }
 
-li a {
+.navBar ul li a {
     text-decoration: none;
 }
 
-li a:hover {
+.navBar ul li a:hover {
     color:#ffffff;
 }
 
@@ -41,10 +45,17 @@ li a:hover {
    width: 80%;
    padding: 30px;
 }
+.content p {
+    text-align: justify;
+    height: 90px;
+    line-height: 20px;
+}
 
 .footer {
     background-color: #808080;
     text-align: center;
-    padding: 20px;
+    font-size: 12px;
+    padding: 25px;
+    
 
 }
